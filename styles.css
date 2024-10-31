@@ -72,6 +72,7 @@ ul{
 
 nav{
 	margin: 1rem;
+	font-size: 1.25rem;
 }
 
 a:hover{
@@ -90,6 +91,11 @@ li a{
 	gap: 2rem;
 }
 
+iframe{
+	width:650px;
+	margin-right: 2rem;
+}
+
 h2{
 	padding: 2rem;
 	font-size: 2rem;
@@ -99,6 +105,7 @@ h2{
 p{
 	width: 100%;
 	padding: 2rem;
+	font-size: 1.25rem;
 }
 
 svg{
@@ -107,21 +114,56 @@ svg{
 	color: black;
 }
 
+
 footer{
 	
-	padding: 6rem;
+	padding: 2rem;
 	margin:0 auto;
-	
 }
 
 #socialmedia{
-	padding:6rem;
-	
+	padding:2rem;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 1rem;
+	justify-items: center;
 }
+
+section a{
+	margin:1rem;
+}
+
 
 img{
 	
 	padding: 2rem;
+}
+
+header img{
+	position: absolute;
+	left: 5px;
+	width: 22%;
+}
+
+
+iframe {
+	transition: transform 0.5s ease;
+  }
+  
+iframe:hover {
+	transform: scale(1.05); 
+  }
+
+a{
+	transition: transform 0.3s ease;
+}
+
+a:hover{
+	transform: scale(1.2); 
+}
+
+small{
+	padding: 1rem;
 }
 
 
@@ -159,5 +201,21 @@ img{
 	section a {
 		padding: 2rem;
 	}
+
+	.works{
+		display:grid;
+		grid-template-columns: 1fr 1fr;
+		justify-content: center;
+		gap: 2rem;
+	}
+
+	footer{
+		width: 20%;
+	}
+
+	p{
+		width: 80%;
+	}
+
   }
 
